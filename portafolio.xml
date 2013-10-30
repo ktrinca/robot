@@ -1,0 +1,29 @@
+<root>
+		<caso>
+			<titulo>id Banelco</titulo>
+			<fecha></fecha>
+			<detalle>lon que quiera</detalle>
+			<naturaleza>Imagen</naturaleza>
+			<subtitulo>lo que quiera</subtitulo>
+			<cantidad_imgs>1</cantidad_imgs>
+				<img>/uploads/image/path/2/2013-05-08-083912.jpg</img>
+		</caso>	
+		<caso>
+			<titulo>Concurso nacional de anteproyectos</titulo>
+			<fecha></fecha>
+			<detalle>sssss</detalle>
+			<naturaleza>Imagen</naturaleza>
+			<subtitulo>sadasd</subtitulo>
+			<cantidad_imgs>0</cantidad_imgs>
+		</caso>	
+		<caso>
+			<titulo>no se</titulo>
+			<fecha>2008-11-17 00:00:00 UTC</fecha>
+			<detalle>sdddddd</detalle>
+			<naturaleza>xxx imagenes</naturaleza>
+			<subtitulo>hdhdhd</subtitulo>
+			<cantidad_imgs>1</cantidad_imgs>
+				<img>/uploads/image/path/1/Pantallazo-2.png</img>
+		</caso>	
+</root>	
+		

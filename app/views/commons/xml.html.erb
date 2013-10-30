@@ -1,0 +1,16 @@
+<root>
+	<% @cases.each do |c| %>
+		<caso>
+			<titulo><%=c.title%></titulo>
+			<fecha><%=c.date%></fecha>
+			<detalle><%=c.description%></detalle>
+			<naturaleza><%=c.nature%></naturaleza>
+			<subtitulo><%=c.subtitle%></subtitulo>
+			<cantidad_imgs><%=c.images.count%></cantidad_imgs>
+			<% c.images.each do |i| %>
+				<img><%=i.name%></img>
+			<%end%>
+		</caso>	
+	<%end%>	
+</root>	
+		
