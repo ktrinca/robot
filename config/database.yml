@@ -27,7 +27,7 @@ test:
   database: robot_test
   pool: 5
   username: root
-  password: 'rlkj90'
+  password: 'pass'
 
 production:
   adapter: mysql2
@@ -36,5 +36,5 @@ production:
   database: robot_production
   pool: 5
   username: root
-  password: 'rlkj90'
+  password: 'pass'
 
