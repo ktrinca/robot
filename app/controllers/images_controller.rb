@@ -80,4 +80,9 @@ class ImagesController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def copy
+    send_file "/path/to/file", :filename => "filename", :x_sendfile => true
+  end
+  
 end

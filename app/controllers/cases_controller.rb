@@ -86,14 +86,10 @@ class CasesController < ApplicationController
     @cases = Case.all
     data = @cases
     file = "portafolio.xml"
-    #respond_to do |format|
-      #format.xml do  
-      data =  render_to_body(:template=>"commons/xml" )  
-      File.open(file, "w"){ |f| f << data }
-      #send_data(data, :type=>"text/xml",:filename => file, :type=>"application/txt", :x_sendfile=>true, :disposition => 'inline')
-      #end
-    #end
+    data =  render_to_body(:template=>"commons/xml" )  
+    File.open(file, "w"){ |f| f << data }
     send_file( file, :type=>"application/txt", :x_sendfile=>true, :disposition => 'inline')
 
-  end   
+  end
+
 end

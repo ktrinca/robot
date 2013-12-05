@@ -6,7 +6,7 @@
 			<naturaleza>Imagen</naturaleza>
 			<subtitulo>lo que quiera</subtitulo>
 			<cantidad_imgs>1</cantidad_imgs>
-				<img>/uploads/image/path/2/2013-05-08-083912.jpg</img>
+				<img>FIncBenShck.flv</img>
 		</caso>	
 		<caso>
 			<titulo>Concurso nacional de anteproyectos</titulo>
@@ -14,7 +14,9 @@
 			<detalle>sssss</detalle>
 			<naturaleza>Imagen</naturaleza>
 			<subtitulo>sadasd</subtitulo>
-			<cantidad_imgs>0</cantidad_imgs>
+			<cantidad_imgs>2</cantidad_imgs>
+				<img>menu-active.png</img>
+				<img>buscador_admin.png</img>
 		</caso>	
 		<caso>
 			<titulo>no se</titulo>
@@ -23,7 +25,7 @@
 			<naturaleza>xxx imagenes</naturaleza>
 			<subtitulo>hdhdhd</subtitulo>
 			<cantidad_imgs>1</cantidad_imgs>
-				<img>/uploads/image/path/1/Pantallazo-2.png</img>
+				<img>Pantallazo-2.png</img>
 		</caso>	
 </root>	
 		
