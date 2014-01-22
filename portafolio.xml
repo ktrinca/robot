@@ -3,29 +3,41 @@
 			<titulo>id Banelco</titulo>
 			<fecha></fecha>
 			<detalle>lon que quiera</detalle>
+			<cliente>Concurso nacional de anteproyectos</detalle>
 			<naturaleza>Imagen</naturaleza>
 			<subtitulo>lo que quiera</subtitulo>
-			<cantidad_imgs>1</cantidad_imgs>
-				<img>FIncBenShck.flv</img>
+			<descripcion>lon que quiera</descripcion>
+			<link></link>
+			<cantidad_imgs>2</cantidad_imgs>
+			<img>FIncBenShck.flv</img>
+			<img>info.jpg</img>
 		</caso>	
 		<caso>
 			<titulo>Concurso nacional de anteproyectos</titulo>
 			<fecha></fecha>
 			<detalle>sssss</detalle>
+			<cliente>Concurso nacional de anteproyectos</detalle>
 			<naturaleza>Imagen</naturaleza>
 			<subtitulo>sadasd</subtitulo>
-			<cantidad_imgs>2</cantidad_imgs>
-				<img>menu-active.png</img>
-				<img>buscador_admin.png</img>
+			<descripcion>sssss</descripcion>
+			<link>sadasd/.com</link>
+			<cantidad_imgs>3</cantidad_imgs>
+			<img>menu-active.png</img>
+			<img>buscador_admin.png</img>
+			<img>info.jpg</img>
 		</caso>	
 		<caso>
 			<titulo>no se</titulo>
 			<fecha>2008-11-17 00:00:00 UTC</fecha>
 			<detalle>sdddddd</detalle>
+			<cliente>Concurso nacional de anteproyectos</detalle>
 			<naturaleza>xxx imagenes</naturaleza>
 			<subtitulo>hdhdhd</subtitulo>
-			<cantidad_imgs>1</cantidad_imgs>
-				<img>Pantallazo-2.png</img>
+			<descripcion>sdddddd</descripcion>
+			<link>sadasd/.com</link>
+			<cantidad_imgs>2</cantidad_imgs>
+			<img>Pantallazo-2.png</img>
+			<img>info.jpg</img>
 		</caso>	
 </root>	
 		
