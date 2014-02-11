@@ -7,8 +7,11 @@ Robot::Application.routes.draw do
   resources :clients
 
 
-  resources :images
-
+  resources :images do
+    collection do
+      get :download
+    end
+  end  
 
 
   resources :cases do

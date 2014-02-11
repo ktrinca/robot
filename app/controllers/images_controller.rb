@@ -81,8 +81,34 @@ class ImagesController < ApplicationController
     end
   end
 
-  def copy
-    send_file "/path/to/file", :filename => "filename", :x_sendfile => true
+  #Crea archivo zip con los archivos csv y txt en el dir logs
+def create_zip(zipfile_name)
+  current_path = Dir.pwd
+  
+  file_path = "#{current_path}/assets/images/zip"
+
+  @images = Image.all
+  
+  if @images.count > 0 
+    Zip::ZipFile.open(zipfile_name, Zip::ZipFile::CREATE) do |zipfile|
+      @images.each do |filename|
+        zipfile.add(filename.name, "#{current_path}/public#{filename.path.to_s}")
+      end
+  
+    end
+    #delete_files_logs(file_path, file_list) 
+    
+  end  
+end 
+
+def download
+  current_path = Dir.pwd
+  zipfile_name = "#{current_path}/app/assets/images/zip/images.zip" 
+  if File.exist?(zipfile_name)
+    File.delete(zipfile_name)
   end
+  create_zip(zipfile_name)
+  send_file( zipfile_name, :type=>"application/txt", :x_sendfile=>true, :disposition => 'inline')
+end
   
 end

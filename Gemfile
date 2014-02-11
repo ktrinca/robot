@@ -11,6 +11,8 @@ gem 'carrierwave'
 gem 'ransack'
 gem "activeadmin", "~> 0.6.2"
 gem "xml-mapping", "~> 0.9.1"
+gem 'rubyzip', '>= 1.0.0'
+gem 'zip-zip'
 
 
 # Gems used only for assets and not required

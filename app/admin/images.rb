@@ -1,4 +1,9 @@
 ActiveAdmin.register Image do
+  scope :all, :default => true
+  action_item do
+    link_to "Descargar Imagenes", "/images/download"
+  end
+
 	menu :label => "Imagenes"		
 	index do
   	column "Identificador", :id
