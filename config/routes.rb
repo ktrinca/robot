@@ -1,4 +1,7 @@
 Robot::Application.routes.draw do
+  resources :thumbnails
+
+
   ActiveAdmin.routes(self)
   root :to => "admin/admin_users#index"
   

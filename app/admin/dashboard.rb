@@ -26,7 +26,7 @@ ActiveAdmin.register_page "Dashboard" do
 
        column do
          panel "Info" do
-           para "Ultima empresa agregada:#{Client.last.name}"
+           span "Ultima empresa agregada:  #{Client.last.name}"
          end
        end
     end
@@ -34,3 +34,5 @@ ActiveAdmin.register_page "Dashboard" do
 
 
 end
+
+
