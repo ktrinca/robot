@@ -6,7 +6,8 @@ gem 'ransack'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
+gem 'activerecord-postgresql-adapter'
+gem "pg", "~> 0.11"
 gem 'carrierwave'
 gem 'ransack'
 gem "activeadmin", "~> 0.6.2"
