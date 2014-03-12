@@ -18,6 +18,8 @@ ActiveAdmin.register Case do
   	column "Creado", :created_at
   	column "Actualizado", :updated_at
   	default_actions
-  end			
+  end		
+
+  
 
 end

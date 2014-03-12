@@ -92,7 +92,7 @@ def create_zip(zipfile_name)
   if @images.count > 0 
     Zip::ZipFile.open(zipfile_name, Zip::ZipFile::CREATE) do |zipfile|
       @images.each do |filename|
-        zipfile.add(filename.name, "#{current_path}/public#{filename.path.to_s}")
+        zipfile.add(filename.name, "#{filename.path.to_s}")
       end
   
     end

@@ -8,12 +8,14 @@ gem 'ransack'
 
 gem 'activerecord-postgresql-adapter'
 gem "pg", "~> 0.11"
-gem 'carrierwave'
+gem 'carrierwave', "~> 0.6.2"
+gem 'carrierwave-ftp', :require => 'carrierwave/storage/ftp/all' # both FTP/SFTP
 gem 'ransack'
 gem "activeadmin", "~> 0.6.2"
 gem "xml-mapping", "~> 0.9.1"
 gem 'rubyzip', '>= 1.0.0'
 gem 'zip-zip'
+
 
 
 # Gems used only for assets and not required
