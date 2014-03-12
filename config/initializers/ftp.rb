@@ -5,5 +5,5 @@ CarrierWave.configure do |config|
   config.ftp_passwd = "lkjasd164"
   config.ftp_folder = "/public_html/uploads"
   config.ftp_url = "http://robot.2trweb.com/uploads"
-  #config.passive = false # false by default
+  config.ftp_passive = true # false by default
 end
