@@ -26,7 +26,7 @@ ActiveAdmin.register_page "Dashboard" do
 
        column do
          panel "Info" do
-           span "Ultima empresa agregada:  #{Client.last.name}"
+           span "Ultima empresa agregada:  #{Client.last.name}" if !Client.last.nil?
          end
        end
     end
