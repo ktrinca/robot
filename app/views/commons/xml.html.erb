@@ -2,7 +2,7 @@
 	<% @cases.each do |c| %>
 		<caso>
 		  <titulo><%=c.title%></titulo>
-		  <fecha><%=c.date%></fecha>
+		  <fecha><%=l c.date%></fecha>
 		  <detalle><%=c.description%></detalle>
 		  <cliente><%=c.client.name if !c.client.nil? %></cliente>
 		  <naturaleza><%=c.nature%></naturaleza>

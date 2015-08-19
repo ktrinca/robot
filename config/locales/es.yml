@@ -14,7 +14,7 @@ es:
     formats:
       short: '%d/%m/%Y'
       long: '%d/%m/%Y'
-          
+      default: "%d.%m.%Y"    
   date:
     abbr_day_names:
     - dom
