@@ -1,43 +1,29 @@
 <root>
 		<caso>
-			<titulo>id Banelco</titulo>
-			<fecha></fecha>
-			<detalle>lon que quiera</detalle>
-			<cliente>Concurso nacional de anteproyectos</detalle>
-			<naturaleza>Imagen</naturaleza>
-			<subtitulo>lo que quiera</subtitulo>
-			<descripcion>lon que quiera</descripcion>
-			<link></link>
-			<cantidad_imgs>2</cantidad_imgs>
-			<img>FIncBenShck.flv</img>
-			<img>info.jpg</img>
-		</caso>	
+		  <titulo>OK TE PASO EL TITLO</titulo>
+		  <fecha>2010-03-03 19:19:00 UTC</fecha>
+		  <detalle>lestoy bistante cansada</detalle>
+		  <cliente>Yanina S.A</cliente>
+		  <naturaleza>Hello</naturaleza>
+		  <subtitulo>que pas</subtitulo>
+		  <descripcion>lestoy bistante cansada</descripcion>
+		  <link>http://mamelafumela.com</link>
+		  <creditos>ho</creditos>
+		  <cantidad_imgs>1</cantidad_imgs>
+		  <img>info.jpg</img>
+	  </caso>	
 		<caso>
-			<titulo>Concurso nacional de anteproyectos</titulo>
-			<fecha></fecha>
-			<detalle>sssss</detalle>
-			<cliente>Concurso nacional de anteproyectos</detalle>
-			<naturaleza>Imagen</naturaleza>
-			<subtitulo>sadasd</subtitulo>
-			<descripcion>sssss</descripcion>
-			<link>sadasd/.com</link>
-			<cantidad_imgs>3</cantidad_imgs>
-			<img>menu-active.png</img>
-			<img>buscador_admin.png</img>
-			<img>info.jpg</img>
-		</caso>	
-		<caso>
-			<titulo>no se</titulo>
-			<fecha>2008-11-17 00:00:00 UTC</fecha>
-			<detalle>sdddddd</detalle>
-			<cliente>Concurso nacional de anteproyectos</detalle>
-			<naturaleza>xxx imagenes</naturaleza>
-			<subtitulo>hdhdhd</subtitulo>
-			<descripcion>sdddddd</descripcion>
-			<link>sadasd/.com</link>
-			<cantidad_imgs>2</cantidad_imgs>
-			<img>Pantallazo-2.png</img>
-			<img>info.jpg</img>
-		</caso>	
+		  <titulo>Title</titulo>
+		  <fecha>2011-05-02 19:19:00 UTC</fecha>
+		  <detalle>HELLO KITYY</detalle>
+		  <cliente>Yanina S.A</cliente>
+		  <naturaleza>MSQ</naturaleza>
+		  <subtitulo>HOLA SUBTITLE</subtitulo>
+		  <descripcion>HELLO KITYY</descripcion>
+		  <link>maque</link>
+		  <creditos>BUeno todo OK</creditos>
+		  <cantidad_imgs>1</cantidad_imgs>
+		  <img>info.jpg</img>
+	  </caso>	
 </root>	
 		

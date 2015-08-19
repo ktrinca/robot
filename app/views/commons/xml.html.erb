@@ -1,20 +1,21 @@
 <root>
 	<% @cases.each do |c| %>
 		<caso>
-			<titulo><%=c.title%></titulo>
-			<fecha><%=c.date%></fecha>
-			<detalle><%=c.description%></detalle>
-			<cliente><%=c.client.name if !c.client.nil? %></detalle>
-			<naturaleza><%=c.nature%></naturaleza>
-			<subtitulo><%=c.subtitle%></subtitulo>
-			<descripcion><%=c.description%></descripcion>
-			<link><%=c.link%></link>
-			<cantidad_imgs><%=c.images.count + 1%></cantidad_imgs>
-			<% c.images.each do |i| %>
-			<img><%=i.name%></img>
-			<%end%>
-			<img>info.jpg</img>
-		</caso>	
+		  <titulo><%=c.title%></titulo>
+		  <fecha><%=c.date%></fecha>
+		  <detalle><%=c.description%></detalle>
+		  <cliente><%=c.client.name if !c.client.nil? %></cliente>
+		  <naturaleza><%=c.nature%></naturaleza>
+		  <subtitulo><%=c.subtitle%></subtitulo>
+		  <descripcion><%=c.description%></descripcion>
+		  <link><%=c.link%></link>
+		  <creditos><%=c.credit%></creditos>
+		  <cantidad_imgs><%=c.images.count + 1%></cantidad_imgs>
+		  <% c.images.each do |i| %>
+		  <img><%=i.name%></img>
+		  <%end%>
+		  <img>info.jpg</img>
+	  </caso>	
 	<%end%>	
 </root>	
 		
